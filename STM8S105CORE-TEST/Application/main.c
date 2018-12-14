@@ -1,7 +1,7 @@
 #include "stm8s.h"
 
-#define LED_GPIO_PORT  (GPIOB)
-#define LED_GPIO_PINS  (GPIO_PIN_3 | GPIO_PIN_2 | GPIO_PIN_1 | GPIO_PIN_0)
+#define LED_GPIO_PORT  (GPIOD)
+#define LED_GPIO_PINS  (GPIO_PIN_4)
 
 void Delay(uint16_t nCount)
 {
